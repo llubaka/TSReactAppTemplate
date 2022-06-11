@@ -15,3 +15,4 @@ Typescript React App Template
 
 # Additional Packages
 1. Styled Components
+2. react-router-dom

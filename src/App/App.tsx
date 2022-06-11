@@ -1,12 +1,14 @@
 import React from "react";
-import Button from "../components/Button";
+import { Routes, Route } from "react-router-dom";
+import Home from "../pages/home";
+import NotFound from "../pages/notFound";
 
 function App() {
   return (
-    <>
-      <Button color="red">Hello</Button>
-      <button> as </button>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
