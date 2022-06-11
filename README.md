@@ -2,6 +2,8 @@
 Typescript React App Template
 
 # Why
+0. Based on create-react-app
+
 1. Resctructured
   - App
   - components
